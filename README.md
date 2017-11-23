@@ -18,6 +18,7 @@ At the beginning of your script include the variable.sh file
 * or any value in your options list.
 
 #### Example: ####
+
 ```options=(
 	"Number 1"
 	"Number 2"
