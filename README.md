@@ -17,9 +17,10 @@ At the beginning of your script include the variable.sh file
 * "vs-toggle" will switch between 2 arguments from the options
 * or any value in your options list.
 
-#### Example: ####
+#### Example:
 
-```options=(
+```
+options=(
 	"Number 1"
 	"Number 2"
 	"Number 3"
@@ -34,14 +35,17 @@ varswitch options[@] "MyVar" "Number 3" "vs-last"		# Your variable will now be N
 varswitch options[@] "MyVar" "Number 3" "vs-next"		# Your variable will now be Number 4
 varswitch options[@] "MyVar" "Number 3" "vs-previous"		# Your variable will now be Number 2
 varswitch options[@] "MyVar" "Number 3" "vs-random"		# Your variable will be a random value from your option list
-varswitch options[@] "MyVar" "Number 3" "vs-off"		# The variable will be unset```
+varswitch options[@] "MyVar" "Number 3" "vs-off"		# The variable will be unset
+```
 
 Here is a toggle example:
 
-```options=(
+```
+options=(
 	"enable"
 	"disable"
 )
 
 varswitch options[@] "ToggleMyVar" "enable" "toggle"	# Your variable will now be disable
-varswitch options[@] "ToggleMyVar" "disable" "toggle"	# Your variable will now be enable```
+varswitch options[@] "ToggleMyVar" "disable" "toggle"	# Your variable will now be enable
+```
