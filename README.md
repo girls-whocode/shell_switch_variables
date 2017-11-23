@@ -2,6 +2,8 @@
 
 ## Instructions ##
 
+NOTE!!! THIS IS UNDER CONSTRUCTION... IT IS NOT FUNCTIONAL AT THIS MOMENT
+
 At the beginning of your script include the variable.sh file
 ```source ./path/variable.sh```
 
